@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Contact() {
     return (
       <div>
@@ -10,6 +12,23 @@ function Contact() {
       </div>  
 
     );
-  }
+ }
+
+function Address() {
+  return (
+    <div>
+      <h2 style={{color:"blue"}}>
+          Address    
+      </h2> 
+      <p style={{color:"green"}}>
+          Ann Arbor, MI 48104
+      </p>
+    </div>  
+
+  );
+
+}
   
-  export default Contact;
+
+export {Address, Contact};
+export default Contact;
